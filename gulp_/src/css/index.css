@@ -1,0 +1,64 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    margin: 0;
+}
+.one{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: #ccc;
+    font-size: 50px;
+    line-height: 300px;
+    text-align: center;
+}
+.two{
+    width: 1200px;
+    height: 300px;
+    background: #999;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 300px;
+    text-align: center;
+    color: #fff;
+}
+.three{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: #000066;
+    font-size: 50px;
+    line-height: 300px;
+    color: #fff;
+    text-align: center;
+}
+.one_a{
+    width: 50%;
+    height: 100%;
+    background: #003399;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.one_a span{
+    color: #fff;
+}
+.one_b{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.one_b span{
+    font-size: 30px;
+    line-height: 20%;
+    color: #fff;
+    font-weight: 600;
+}
+div{
+    width: 100px;
+}

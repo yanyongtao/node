@@ -1,0 +1,10 @@
+管理员身份运行命令行：
+mongod.exe --bind_ip 127.0.0.1 --logpath "F:\MongoDB 2.6 Standard\mongodb.log" --logappend --dbpath "F:\MongoDB 2.6 Standard\db" --port 27017 --serviceName "yyt" --serviceDisplayName "yyt" --install
+
+开启服务:
+net start yyt
+
+查看数据：
+mongo 命令连接数据库
+use ***   选择要查询的数据库
+db.clicks.find()  查询文档内容
