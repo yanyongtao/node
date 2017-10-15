@@ -1,0 +1,70 @@
+/****** Main Styling ******/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin: 8px 0 0 0;
+}
+
+.container p {
+    text-align: center;
+    padding: 0;
+}
+
+/****** Logo Div Styling ******/
+
+img {
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+.clementine-text { /* Styling for the Clementine.js text */
+    padding: 0;
+    margin: -25px 0 0 0;
+    font-weight: 500;
+    font-size: 60px;
+    color: #FFA000;
+}
+
+/****** Click Styling ******/
+
+.btn-container {    /* Styling for the div that contains the buttons */
+    margin: -10px auto 0 auto;
+    text-align: center;
+}
+
+.btn {  /* Styling for buttons */
+    margin: 0 8px;
+    color: white;
+    background-color: #00BCD4;
+    display: inline-block;
+    border: 0;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 10px 5px;
+    width: 100px;
+    font-weight: 500;
+}
+
+.btn:focus {    /* Remove outline when hovering over button */
+    outline: none;
+}
+
+.btn:active {   /* Scale the button down by 10% when clicking on button */
+    transform: scale(0.9, 0.9);
+    -webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+}
+
+.btn-delete {   /* Styling for delete button */
+    background-color: #ECEFF1;
+    color: #212121;
+}
+
+作者：lvsjack1
+链接：http://www.jianshu.com/p/b4256fb0847a
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

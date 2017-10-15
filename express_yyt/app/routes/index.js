@@ -1,4 +1,3 @@
-//路由，访问分流
 'use strict';
 // 使用一个变量储存函数对象
 var ClickHandler = require(process.cwd() + '/app/controllers/clickHandler.server.js');
